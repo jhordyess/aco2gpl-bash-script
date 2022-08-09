@@ -1,6 +1,6 @@
 #!/bin/bash
 #TODO Make an executable?
-printf "File name: "
+printf "File path: "
 read File_path
 if [[ -f "$File_path" ]]; then
     File_full_name=$(basename "$File_path")
